@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Gidsale" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Безымянный-1" translatesAutoresizingMaskIntoConstraints="NO" id="XIh-GE-ulb">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="LMF-TN-fS0"/>
+                                    <constraint firstAttribute="width" constant="257" id="hkY-aA-IBS"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lineMenu" translatesAutoresizingMaskIntoConstraints="NO" id="Hcj-3H-54B">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="257" id="QzP-1i-1T0"/>
+                                    <constraint firstAttribute="height" constant="1" id="xJl-X9-pbb"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3G-wb-Ba9">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ryP-iF-00F"/>
+                                </constraints>
+                                <state key="normal" title="г. Москва">
+                                    <color key="titleColor" red="0.098039215690000001" green="0.098039215690000001" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" image="downCity" translatesAutoresizingMaskIntoConstraints="NO" id="iPk-zg-Dbt">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="7" id="XNW-ug-JeG"/>
+                                    <constraint firstAttribute="width" constant="9" id="l93-8G-7ad"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kmh-r2-OUB">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5FT-2r-mPj"/>
+                                </constraints>
+                                <state key="normal" title="Принять">
+                                    <color key="titleColor" red="0.56856346130371094" green="0.56866437196731567" blue="0.56855708360671997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iPk-zg-Dbt" firstAttribute="top" secondItem="XIh-GE-ulb" secondAttribute="bottom" constant="27.5" id="T04-3c-Ejy"/>
+                            <constraint firstItem="XIh-GE-ulb" firstAttribute="leading" secondItem="I3G-wb-Ba9" secondAttribute="trailing" constant="-75" id="T4f-Vf-LTm"/>
+                            <constraint firstItem="Hcj-3H-54B" firstAttribute="leading" secondItem="XIh-GE-ulb" secondAttribute="leading" id="ULy-RH-6sA"/>
+                            <constraint firstItem="kmh-r2-OUB" firstAttribute="top" secondItem="XIh-GE-ulb" secondAttribute="bottom" constant="14" id="fe2-yg-4eJ"/>
+                            <constraint firstItem="I3G-wb-Ba9" firstAttribute="top" secondItem="XIh-GE-ulb" secondAttribute="bottom" constant="13.5" id="gbN-lu-wDZ"/>
+                            <constraint firstItem="iPk-zg-Dbt" firstAttribute="leading" secondItem="I3G-wb-Ba9" secondAttribute="trailing" constant="7" id="hmO-YO-YET"/>
+                            <constraint firstItem="XIh-GE-ulb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mlF-v7-N5R"/>
+                            <constraint firstItem="kmh-r2-OUB" firstAttribute="leading" secondItem="iPk-zg-Dbt" secondAttribute="trailing" constant="87" id="oWn-M2-Z9d"/>
+                            <constraint firstItem="XIh-GE-ulb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qko-NZ-RiS"/>
+                            <constraint firstItem="Hcj-3H-54B" firstAttribute="top" secondItem="kmh-r2-OUB" secondAttribute="bottom" constant="12" id="tU0-YJ-qIl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="35.869565217391305"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="downCity" width="24" height="17"/>
+        <image name="lineMenu" width="459" height="1"/>
+        <image name="Безымянный-1" width="113" height="39"/>
+    </resources>
+</document>

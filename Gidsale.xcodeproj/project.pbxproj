@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F937B9A1DB82F16001815D6 /* content in Resources */ = {isa = PBXBuildFile; fileRef = 1F937B991DB82F16001815D6 /* content */; };
+		1FD5A0891DB82E3800B3DDA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5A0881DB82E3800B3DDA7 /* AppDelegate.swift */; };
+		1FD5A08B1DB82E3800B3DDA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5A08A1DB82E3800B3DDA7 /* ViewController.swift */; };
+		1FD5A08E1DB82E3800B3DDA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD5A08C1DB82E3800B3DDA7 /* Main.storyboard */; };
+		1FD5A0911DB82E3800B3DDA7 /* Gidsale.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5A08F1DB82E3800B3DDA7 /* Gidsale.xcdatamodeld */; };
+		1FD5A0931DB82E3800B3DDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD5A0921DB82E3800B3DDA7 /* Assets.xcassets */; };
+		1FD5A0961DB82E3800B3DDA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD5A0941DB82E3800B3DDA7 /* LaunchScreen.storyboard */; };
+		1FD5A0A11DB82E3800B3DDA7 /* GidsaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5A0A01DB82E3800B3DDA7 /* GidsaleTests.swift */; };
+		1FD5A0AC1DB82E3800B3DDA7 /* GidsaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5A0AB1DB82E3800B3DDA7 /* GidsaleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FD5A09D1DB82E3800B3DDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FD5A07D1DB82E3700B3DDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FD5A0841DB82E3700B3DDA7;
+			remoteInfo = Gidsale;
+		};
+		1FD5A0A81DB82E3800B3DDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FD5A07D1DB82E3700B3DDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FD5A0841DB82E3700B3DDA7;
+			remoteInfo = Gidsale;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F937B991DB82F16001815D6 /* content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = content; sourceTree = "<group>"; };
+		1FD5A0851DB82E3800B3DDA7 /* Gidsale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gidsale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD5A0881DB82E3800B3DDA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FD5A08A1DB82E3800B3DDA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FD5A08D1DB82E3800B3DDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FD5A0901DB82E3800B3DDA7 /* Gidsale.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gidsale.xcdatamodel; sourceTree = "<group>"; };
+		1FD5A0921DB82E3800B3DDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FD5A0951DB82E3800B3DDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FD5A0971DB82E3800B3DDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD5A09C1DB82E3800B3DDA7 /* GidsaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GidsaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD5A0A01DB82E3800B3DDA7 /* GidsaleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GidsaleTests.swift; sourceTree = "<group>"; };
+		1FD5A0A21DB82E3800B3DDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD5A0A71DB82E3800B3DDA7 /* GidsaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GidsaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD5A0AB1DB82E3800B3DDA7 /* GidsaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GidsaleUITests.swift; sourceTree = "<group>"; };
+		1FD5A0AD1DB82E3800B3DDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FD5A0821DB82E3700B3DDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD5A0991DB82E3800B3DDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD5A0A41DB82E3800B3DDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FD5A07C1DB82E3700B3DDA7 = {
+			isa = PBXGroup;
+			children = (
+				1F937B991DB82F16001815D6 /* content */,
+				1FD5A0871DB82E3800B3DDA7 /* Gidsale */,
+				1FD5A09F1DB82E3800B3DDA7 /* GidsaleTests */,
+				1FD5A0AA1DB82E3800B3DDA7 /* GidsaleUITests */,
+				1FD5A0861DB82E3800B3DDA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FD5A0861DB82E3800B3DDA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FD5A0851DB82E3800B3DDA7 /* Gidsale.app */,
+				1FD5A09C1DB82E3800B3DDA7 /* GidsaleTests.xctest */,
+				1FD5A0A71DB82E3800B3DDA7 /* GidsaleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FD5A0871DB82E3800B3DDA7 /* Gidsale */ = {
+			isa = PBXGroup;
+			children = (
+				1FD5A0881DB82E3800B3DDA7 /* AppDelegate.swift */,
+				1FD5A08A1DB82E3800B3DDA7 /* ViewController.swift */,
+				1FD5A08C1DB82E3800B3DDA7 /* Main.storyboard */,
+				1FD5A0921DB82E3800B3DDA7 /* Assets.xcassets */,
+				1FD5A0941DB82E3800B3DDA7 /* LaunchScreen.storyboard */,
+				1FD5A0971DB82E3800B3DDA7 /* Info.plist */,
+				1FD5A08F1DB82E3800B3DDA7 /* Gidsale.xcdatamodeld */,
+			);
+			path = Gidsale;
+			sourceTree = "<group>";
+		};
+		1FD5A09F1DB82E3800B3DDA7 /* GidsaleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FD5A0A01DB82E3800B3DDA7 /* GidsaleTests.swift */,
+				1FD5A0A21DB82E3800B3DDA7 /* Info.plist */,
+			);
+			path = GidsaleTests;
+			sourceTree = "<group>";
+		};
+		1FD5A0AA1DB82E3800B3DDA7 /* GidsaleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FD5A0AB1DB82E3800B3DDA7 /* GidsaleUITests.swift */,
+				1FD5A0AD1DB82E3800B3DDA7 /* Info.plist */,
+			);
+			path = GidsaleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FD5A0841DB82E3700B3DDA7 /* Gidsale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD5A0B01DB82E3800B3DDA7 /* Build configuration list for PBXNativeTarget "Gidsale" */;
+			buildPhases = (
+				1FD5A0811DB82E3700B3DDA7 /* Sources */,
+				1FD5A0821DB82E3700B3DDA7 /* Frameworks */,
+				1FD5A0831DB82E3700B3DDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gidsale;
+			productName = Gidsale;
+			productReference = 1FD5A0851DB82E3800B3DDA7 /* Gidsale.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FD5A09B1DB82E3800B3DDA7 /* GidsaleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD5A0B31DB82E3800B3DDA7 /* Build configuration list for PBXNativeTarget "GidsaleTests" */;
+			buildPhases = (
+				1FD5A0981DB82E3800B3DDA7 /* Sources */,
+				1FD5A0991DB82E3800B3DDA7 /* Frameworks */,
+				1FD5A09A1DB82E3800B3DDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FD5A09E1DB82E3800B3DDA7 /* PBXTargetDependency */,
+			);
+			name = GidsaleTests;
+			productName = GidsaleTests;
+			productReference = 1FD5A09C1DB82E3800B3DDA7 /* GidsaleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FD5A0A61DB82E3800B3DDA7 /* GidsaleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD5A0B61DB82E3800B3DDA7 /* Build configuration list for PBXNativeTarget "GidsaleUITests" */;
+			buildPhases = (
+				1FD5A0A31DB82E3800B3DDA7 /* Sources */,
+				1FD5A0A41DB82E3800B3DDA7 /* Frameworks */,
+				1FD5A0A51DB82E3800B3DDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FD5A0A91DB82E3800B3DDA7 /* PBXTargetDependency */,
+			);
+			name = GidsaleUITests;
+			productName = GidsaleUITests;
+			productReference = 1FD5A0A71DB82E3800B3DDA7 /* GidsaleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FD5A07D1DB82E3700B3DDA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Александр";
+				TargetAttributes = {
+					1FD5A0841DB82E3700B3DDA7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 84V739CU2U;
+						ProvisioningStyle = Automatic;
+					};
+					1FD5A09B1DB82E3800B3DDA7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 84V739CU2U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FD5A0841DB82E3700B3DDA7;
+					};
+					1FD5A0A61DB82E3800B3DDA7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 84V739CU2U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FD5A0841DB82E3700B3DDA7;
+					};
+				};
+			};
+			buildConfigurationList = 1FD5A0801DB82E3700B3DDA7 /* Build configuration list for PBXProject "Gidsale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FD5A07C1DB82E3700B3DDA7;
+			productRefGroup = 1FD5A0861DB82E3800B3DDA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FD5A0841DB82E3700B3DDA7 /* Gidsale */,
+				1FD5A09B1DB82E3800B3DDA7 /* GidsaleTests */,
+				1FD5A0A61DB82E3800B3DDA7 /* GidsaleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FD5A0831DB82E3700B3DDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD5A0961DB82E3800B3DDA7 /* LaunchScreen.storyboard in Resources */,
+				1FD5A0931DB82E3800B3DDA7 /* Assets.xcassets in Resources */,
+				1F937B9A1DB82F16001815D6 /* content in Resources */,
+				1FD5A08E1DB82E3800B3DDA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD5A09A1DB82E3800B3DDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD5A0A51DB82E3800B3DDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FD5A0811DB82E3700B3DDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD5A0911DB82E3800B3DDA7 /* Gidsale.xcdatamodeld in Sources */,
+				1FD5A08B1DB82E3800B3DDA7 /* ViewController.swift in Sources */,
+				1FD5A0891DB82E3800B3DDA7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD5A0981DB82E3800B3DDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD5A0A11DB82E3800B3DDA7 /* GidsaleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD5A0A31DB82E3800B3DDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD5A0AC1DB82E3800B3DDA7 /* GidsaleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FD5A09E1DB82E3800B3DDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FD5A0841DB82E3700B3DDA7 /* Gidsale */;
+			targetProxy = 1FD5A09D1DB82E3800B3DDA7 /* PBXContainerItemProxy */;
+		};
+		1FD5A0A91DB82E3800B3DDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FD5A0841DB82E3700B3DDA7 /* Gidsale */;
+			targetProxy = 1FD5A0A81DB82E3800B3DDA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FD5A08C1DB82E3800B3DDA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FD5A08D1DB82E3800B3DDA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FD5A0941DB82E3800B3DDA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FD5A0951DB82E3800B3DDA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FD5A0AE1DB82E3800B3DDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FD5A0AF1DB82E3800B3DDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FD5A0B11DB82E3800B3DDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84V739CU2U;
+				INFOPLIST_FILE = Gidsale/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gariken.Gidsale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FD5A0B21DB82E3800B3DDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84V739CU2U;
+				INFOPLIST_FILE = Gidsale/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gariken.Gidsale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1FD5A0B41DB82E3800B3DDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 84V739CU2U;
+				INFOPLIST_FILE = GidsaleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gariken.GidsaleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gidsale.app/Gidsale";
+			};
+			name = Debug;
+		};
+		1FD5A0B51DB82E3800B3DDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 84V739CU2U;
+				INFOPLIST_FILE = GidsaleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gariken.GidsaleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gidsale.app/Gidsale";
+			};
+			name = Release;
+		};
+		1FD5A0B71DB82E3800B3DDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 84V739CU2U;
+				INFOPLIST_FILE = GidsaleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gariken.GidsaleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Gidsale;
+			};
+			name = Debug;
+		};
+		1FD5A0B81DB82E3800B3DDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 84V739CU2U;
+				INFOPLIST_FILE = GidsaleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gariken.GidsaleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Gidsale;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FD5A0801DB82E3700B3DDA7 /* Build configuration list for PBXProject "Gidsale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD5A0AE1DB82E3800B3DDA7 /* Debug */,
+				1FD5A0AF1DB82E3800B3DDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD5A0B01DB82E3800B3DDA7 /* Build configuration list for PBXNativeTarget "Gidsale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD5A0B11DB82E3800B3DDA7 /* Debug */,
+				1FD5A0B21DB82E3800B3DDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD5A0B31DB82E3800B3DDA7 /* Build configuration list for PBXNativeTarget "GidsaleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD5A0B41DB82E3800B3DDA7 /* Debug */,
+				1FD5A0B51DB82E3800B3DDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD5A0B61DB82E3800B3DDA7 /* Build configuration list for PBXNativeTarget "GidsaleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD5A0B71DB82E3800B3DDA7 /* Debug */,
+				1FD5A0B81DB82E3800B3DDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1FD5A08F1DB82E3800B3DDA7 /* Gidsale.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1FD5A0901DB82E3800B3DDA7 /* Gidsale.xcdatamodel */,
+			);
+			currentVersion = 1FD5A0901DB82E3800B3DDA7 /* Gidsale.xcdatamodel */;
+			path = Gidsale.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1FD5A07D1DB82E3700B3DDA7 /* Project object */;
+}
