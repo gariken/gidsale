@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1F937B9A1DB82F16001815D6 /* content in Resources */ = {isa = PBXBuildFile; fileRef = 1F937B991DB82F16001815D6 /* content */; };
+		1F99485C1E01724F008C6887 /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F99485B1E01724F008C6887 /* startViewController.swift */; };
+		1F99485E1E0172B4008C6887 /* checkBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F99485D1E0172B4008C6887 /* checkBox.swift */; };
 		1FD5A0891DB82E3800B3DDA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5A0881DB82E3800B3DDA7 /* AppDelegate.swift */; };
 		1FD5A08B1DB82E3800B3DDA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5A08A1DB82E3800B3DDA7 /* ViewController.swift */; };
 		1FD5A08E1DB82E3800B3DDA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD5A08C1DB82E3800B3DDA7 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		1F937B991DB82F16001815D6 /* content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = content; sourceTree = "<group>"; };
+		1F99485B1E01724F008C6887 /* startViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
+		1F99485D1E0172B4008C6887 /* checkBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkBox.swift; sourceTree = "<group>"; };
 		1FD5A0851DB82E3800B3DDA7 /* Gidsale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gidsale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD5A0881DB82E3800B3DDA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FD5A08A1DB82E3800B3DDA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +82,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F9948581E0171AE008C6887 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F99485D1E0172B4008C6887 /* checkBox.swift */,
+				1FD5A0881DB82E3800B3DDA7 /* AppDelegate.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1F9948591E0171B7008C6887 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1FD5A08C1DB82E3800B3DDA7 /* Main.storyboard */,
+				1FD5A0941DB82E3800B3DDA7 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1F99485A1E0171BE008C6887 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F99485B1E01724F008C6887 /* startViewController.swift */,
+				1FD5A08A1DB82E3800B3DDA7 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		1FD5A07C1DB82E3700B3DDA7 = {
 			isa = PBXGroup;
 			children = (
@@ -102,11 +133,10 @@
 		1FD5A0871DB82E3800B3DDA7 /* Gidsale */ = {
 			isa = PBXGroup;
 			children = (
-				1FD5A0881DB82E3800B3DDA7 /* AppDelegate.swift */,
-				1FD5A08A1DB82E3800B3DDA7 /* ViewController.swift */,
-				1FD5A08C1DB82E3800B3DDA7 /* Main.storyboard */,
+				1F99485A1E0171BE008C6887 /* Controller */,
+				1F9948591E0171B7008C6887 /* View */,
+				1F9948581E0171AE008C6887 /* Model */,
 				1FD5A0921DB82E3800B3DDA7 /* Assets.xcassets */,
-				1FD5A0941DB82E3800B3DDA7 /* LaunchScreen.storyboard */,
 				1FD5A0971DB82E3800B3DDA7 /* Info.plist */,
 				1FD5A08F1DB82E3800B3DDA7 /* Gidsale.xcdatamodeld */,
 			);
@@ -194,7 +224,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Александр";
 				TargetAttributes = {
 					1FD5A0841DB82E3700B3DDA7 = {
@@ -270,8 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FD5A0911DB82E3800B3DDA7 /* Gidsale.xcdatamodeld in Sources */,
+				1F99485C1E01724F008C6887 /* startViewController.swift in Sources */,
 				1FD5A08B1DB82E3800B3DDA7 /* ViewController.swift in Sources */,
 				1FD5A0891DB82E3800B3DDA7 /* AppDelegate.swift in Sources */,
+				1F99485E1E0172B4008C6887 /* checkBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +376,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -393,6 +426,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -423,7 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 84V739CU2U;
 				INFOPLIST_FILE = Gidsale/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gariken.Gidsale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,7 +471,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 84V739CU2U;
 				INFOPLIST_FILE = Gidsale/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gariken.Gidsale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
